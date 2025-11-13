@@ -14,23 +14,20 @@ dananz-website/
 ├── 📄 index.html              # Главная страница
 ├── 📄 about.html              # Страница "О нас"
 ├── 📄 services.html           # Услуги
-├── 📄 projects.html           # Портфолио проектов
+├── 📄 portfolio.html          # Портфолио проектов
 ├── 📄 contact.html            # Контакты
+├── 📄 teams.html              # Команда
+├── 📄 room.html               # Пример дизайна комнаты
 ├── 📁 css/                    # Стили проекта
-│   ├── 🎨 style.css           # Главный файл стилей
-│   ├── 🎨 reset.css           # Сброс браузерных стилей
-│   └── 📁 components/         # Стили компонентов
-│       ├── 🎨 header.css      # Стили шапки
-│       ├── 🎨 footer.css      # Стили подвала
-│       ├── 🎨 hero.css        # Герой-секция
-│       ├── 🎨 services.css    # Секция услуг
-│       ├── 🎨 portfolio.css   # Портфолио
-│       └── 🎨 testimonials.css # Отзывы
+│   └── 🎨 style.css           # Главный файл стилей
 ├── 📁 images/                 # Изображения
-│   ├── 🖼️ heroes/            # Баннерные изображения
-│   ├── 🖼️ projects/          # Фото проектов
-│   ├── 🖼️ team/              # Фото команды
-│   ├── 🖼️ logos/             # Логотипы
-│   └── 🖼️ icons/             # Иконки
+│   ├── 📁 /about              # Фото из страницы about
+│   ├── 📁 /contact            # Фото из страницы contact
+│   ├── 📁 /home               # Фото из страницы home
+│   ├── 📁 /icons              # Иконки
+│   ├── 📁 /portfolio          # Фото из страницы portfolio
+│   ├── 📁 /room               # Фото из страницы room
+│   ├── 📁 /services           # Фото из страницы services
+│   └── 📁 /teams              # Фото из страницы teams
 └── 📁 assets/                 # Дополнительные ресурсы
     └── 📁 fonts/              # Локальные шрифты
