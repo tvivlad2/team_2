@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Poppins;
+}
+
+#white_text {
+  color: white;
+}
+
+.contact-section {
+  height: 120px;
+  background: rgba(44, 56, 120, 1);
+  padding: 3vh 28vh 3vh 20vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact-title1 {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+#grey_text {
+  color: rgba(217, 217, 217, 1);
+}
+
+.contact-title2 {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.contact-button-form {
+  background: white;
+  width: 140px;
+  padding: 3px;
+  margin-top: 15px;
+}
+
+.contact-button {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 10vh 28vh 0vh 20vh;
+}
+
+.footer-title {
+  font-size: 36px;
+  font-weight: 600;
+  color: rgba(51, 51, 51, 1);
+}
+
+.footer-email-form {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  margin-top: 1vh;
+}
+
+.footer-email-input {
+  margin-top: 2vh;
+  color: rgba(217, 217, 217, 1);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+#exampleInputEmail1::placeholder {
+  opacity: 50%;
+}
+
+.footer-email-section {
+  display: flex;
+}
+
+#btn-input {
+  position: absolute;
+  right: 14%;
+  top: 36.2%;
+  border: none;
+}
+
+.footer-web-section {
+  position: relative;
+}
+
+.footer-follow-container {
+  position: absolute;
+  left: 52%;
+  margin-top: 5vh;
+}
+
+.footer-web-logos {
+  padding: 10px 0;
+}
