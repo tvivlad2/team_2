@@ -1,45 +1,63 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 
 * {
-	 padding: 0;
-	 margin: 0;
-	 border: 0;
-}
- *, *:before, *:after {
-	 box-sizing: border-box;
-}
- :focus, :active {
-	 outline: none;
-}
- a:focus, a:active {
-	 outline: none;
+  padding: 0;
+  margin: 0;
+  border: 0;
 }
 
-html, body {
-    height: 100%;
-    width: 100%;
-    line-height: 1;
-    font-size: 16px;
-    text-size-adjust: 100%; 
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
 }
 
- a, a:visited {
-	 text-decoration: none;
+:focus,
+:active {
+  outline: none;
 }
- a:hover {
-	 text-decoration: none;
+
+a:focus,
+a:active {
+  outline: none;
 }
- ul li {
-	 list-style: none;
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  line-height: 1;
+  font-size: 16px;
+  text-size-adjust: 100%;
 }
- img {
-	 vertical-align: top;
+
+a,
+a:visited {
+  text-decoration: none;
 }
- h1, h2, h3, h4, h5, h6 {
-	 font-size: inherit;
-	 font-weight: inherit;
+
+a:hover {
+  text-decoration: none;
 }
- 
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
 
 body {
   font-family: "Poppins";
@@ -90,6 +108,7 @@ body.scroll-lock {
   position: relative;
   text-transform: uppercase;
 }
+
 .title-main:before {
   content: "";
   width: 680px;
@@ -120,12 +139,14 @@ body.scroll-lock {
   display: grid;
   grid-template-rows: repeat(2, auto);
 }
+
 @media (min-width: 992px) {
   .about__other {
     grid-template-columns: 1fr fit-content(260px);
     align-items: center;
   }
 }
+
 @media (max-width: 1152px) {
   .about__other {
     align-items: end;
@@ -140,11 +161,13 @@ body.scroll-lock {
   margin: 0px 95px 0px 0px;
   position: relative;
 }
+
 @media (max-width: 992px) {
   .about__image {
     margin: 0px 0px 40px 0px;
   }
 }
+
 .about__image img {
   max-width: 100%;
 }
@@ -166,6 +189,7 @@ body.scroll-lock {
   margin: 0px 0px 24px 0px;
   position: relative;
 }
+
 .product__list span {
   margin: 0px 80px 0px 0px;
 }
@@ -176,6 +200,7 @@ body.scroll-lock {
   line-height: 140%;
   color: #333333;
 }
+
 .product__link:Before {
   content: "";
   position: absolute;
@@ -186,9 +211,11 @@ body.scroll-lock {
   width: 32px;
   height: 32px;
 }
+
 .product__txt {
   padding: 0px 0px 0px 120px;
 }
+
 .product__txt:not(:last-child) {
   margin: 0px 0px 43px 0px;
 }
@@ -241,6 +268,7 @@ body.scroll-lock {
   padding: 14px 32px;
   transition: background-color 0.8s ease 0s;
 }
+
 .btn:hover {
   background-color: rgb(148, 175, 238);
   transition: background-color 0.8s ease 0s;
