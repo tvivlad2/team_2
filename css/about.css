@@ -138,3 +138,76 @@ body.scroll-lock {
     height: 100%;
     object-fit: cover;
 }
+
+.container_choose {
+    display: flex;
+    margin-left: 30px;
+    padding: 16px;
+    font-family: "Poppins";
+    margin-top: 50px;
+
+
+}
+
+.service_item {
+    display: flex;
+    margin-left: 30px;
+    color: black;
+    font-size: 20px;
+
+}
+
+.logo_choose {
+    padding-left: 30px;
+    margin-top: 8px;
+
+
+
+}
+
+.Why_Text {
+
+    color: black;
+    flex: 1;
+    padding-left: 80px;
+    font-weight: bold;
+    font-size: 36px;
+    padding-bottom: 20px
+}
+
+.content_Text_Choose {
+    display: flex;
+    max-width: 600px;
+    line-height: 1.5;
+    font-size: 18px;
+    padding-left: 80px;
+
+}
+
+.content_Block_choose {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+
+}
+
+.ellipse_element {
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+}
+
+.content_element {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    align-items: center;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.Text_element_Choose {
+    justify-content: center;
+}
