@@ -14,7 +14,7 @@
 <body>
     <div class="wrapper">
         <header class="header">
-            <div class='header__container'>
+            <div class="header__container">
                 <div class="header__body">
                     <a href="index.html" class="header__logo">
                         <img src="images/header/dananz.png" alt="header_error">
@@ -24,10 +24,10 @@
                             <li><a href="index.html" class="black_link">Home</a></li>
                             <li><a href="about.html" class="menu-header__link">About Us</a></li>
                             <li><a href="services.html" class="menu-header__link">Services</a></li>
-                            <li><a href="ourTeams.html" class="menu-header__link">Our Teams</a></li>
+                            <li><a href="teams.html" class="menu-header__link">Our Teams</a></li>
                         </ul>
                         <div class="header_but">
-                            <a href="contactUs.html" class="menu-header__button"><button class="header_button"> Contact
+                            <a href="contact.html" class="menu-header__button"><button class="header_button"> Contact
                                     Us </button></a>
                         </div>
                     </nav>
@@ -36,20 +36,109 @@
         </header>
 
         <main class="main">
-            <section class="main__block-title block-title">
-                <div class='block-title__container container'>
-                    <div class="block-title__body">
-                        <h2 class="block-title__title">Contact Us</h2>
-                        <div class="block-title__text">
-                            It is a long established fact that a reader will be distracted by the readable content of a
-                            page
-                            when looking at its layout.
+            <section class="main__contact-us contact-us">
+                <div class='contact-us__container container'>
+                    <div class="contact-us__body">
+                        <h2 class="contact-us__title">Contact Us</h2>
+                        <div class="contact-us__text">It is a long established fact that a reader will be distracted by
+                            the
+                            readable content of a page when looking at its layout.</div>
+                        <form name="formContact" action="#" class="contact-us__form form-contact-us">
+                            <div class="form-contact-us__names">
+                                <div class="form-contact-us__item">
+                                    <label for="firstName" class="form-contact-us__label">First Name</label>
+                                    <input placeholder="First Name" name="firstName" type="text"
+                                        class="form-contact-us__input">
+                                </div>
+                                <div class="form-contact-us__item">
+                                    <label for="LastName" class="form-contact-us__label">Last Name</label>
+                                    <input placeholder="Last Name" name="LastName" type="text"
+                                        class="form-contact-us__input">
+                                </div>
+                            </div>
+                            <div class="form-contact-us__item">
+                                <label for="email" class="form-contact-us__label">Email</label>
+                                <input placeholder="Email" name="email" type="text" class="form-contact-us__input">
+                            </div>
+                            <div class="form-contact-us__item">
+                                <label for="telephoneForm" class="form-contact-us__label">Phone Number</label>
+                                <div class="form-contact-us__input-select">
+                                    <input placeholder="First Name" name="telephoneForm" type="tel"
+                                        class="form-contact-us__input">
+                                    <select name="selectForm" class="form-contact-us__select">
+                                        <option value="1">US</option>
+                                        <option value="1">UK</option>
+                                        <option value="1">RU</option>
+                                    </select>
+                                </div>
+
+
+                            </div>
+                            <div class="form-contact-us__item">
+                                <label for="textAreaForm" class="form-contact-us__label">Message</label>
+                                <textarea placeholder="Your message" name="textAreaForm"></textarea>
+                            </div>
+                            <button type="submit" class="form-contact-us__button btn">Send Massage</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+            <section class="main__location location">
+                <div class='location__container container'>
+                    <h2 class="location__title ">Location</h2>
+                    <div class="location__body">
+
+                        <div class="location__block-text">
+
+                            <h3 class="location__sub-title">Visit Our Stores</h3>
+                            <div class="location__text text-white">Find us at these locations.</div>
+                            <h4 class="location__label">Email</h4>
+                            <div class="location__text-white text-white">dananz@gmail.com</div>
+                            <h5 class="location__label">Phone</h5>
+                            <div class="location__text-white text-white">+62 815 002 1000</div>
                         </div>
+                        <article class="location__items">
+                            <article class="location__item item-location">
+                                <div class="item-location__body">
+                                    <h2 class="item-location__title">Jakarta</h2>
+                                    <div class="item-location__text text-white">Customize your interior design into a
+                                        dream place
+                                        with the best designers and quality furniture. We try our best to fulfill your
+                                        expectations.</div>
+                                </div>
+                            </article>
+                            <article class="location__item item-location">
+                                <div class="item-location__body">
+                                    <h2 class="item-location__title">Surakarta</h2>
+                                    <div class="item-location__text text-white">Customize your interior design into a
+                                        dream place
+                                        with the best designers and quality furniture. We try our best to fulfill your
+                                        expectations.</div>
+                                </div>
+                            </article>
+                            <article class="location__item item-location">
+                                <div class="item-location__body">
+                                    <h2 class="item-location__title">Yogyakarta</h2>
+                                    <div class="item-location__text text-white">Customize your interior design into a
+                                        dream place
+                                        with the best designers and quality furniture. We try our best to fulfill your
+                                        expectations.</div>
+                                </div>
+                            </article>
+                            <article class="location__item item-location">
+                                <div class="item-location__body">
+                                    <h2 class="item-location__title">Bandung</h2>
+                                    <div class="item-location__text text-white">Customize your interior design into a
+                                        dream place
+                                        with the best designers and quality furniture. We try our best to fulfill your
+                                        expectations.</div>
+                                </div>
+                            </article>
+                        </article>
                     </div>
                 </div>
             </section>
         </main>
-
     </div>
 
     <footer>
