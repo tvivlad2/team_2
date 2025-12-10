@@ -80,7 +80,6 @@ body {
 .creative_person-cards {
     display: grid;
     grid-template-columns: repeat(4, 282px);
-
     align-items: center;
     gap: 20px;
     width: 100%;
