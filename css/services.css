@@ -6,6 +6,10 @@
     border: 0;
 }
 
+ul li {
+    list-style: none;
+}
+
 *,
 *:before,
 *:after {
@@ -74,6 +78,142 @@ body.scroll-lock {
     flex: 1 1 auto;
 }
 
+.text-main {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 170%;
+    color: #333333;
+}
+
+@media (max-width: 767px) {
+    .text-main {
+        font-size: 24px;
+        line-height: 150%;
+    }
+}
+
+.text-white {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    color: #9C9C9C;
+}
+
+.main__product {
+    margin-top: 100px;
+}
+
+@media (max-width: 1350px) {
+    .main__product {
+        margin-top: calc(60px + 100 * ((100vw - 320px) / 1030));
+    }
+}
+
+.title-main {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    margin: 0px 0px 20px 0px;
+    color: #000000;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.title-main:before {
+    content: "";
+    width: 680px;
+    height: 2px;
+    background-color: #000;
+    position: absolute;
+    top: 50%;
+    transform: translate(0px, -50%);
+    left: 0;
+    margin: 0px 0px 0px 100px;
+}
+
+.product__txt-block {
+    display: grid;
+    margin: 0px 0px 75px 0px;
+}
+
+@media (min-width: 992px) {
+    .product__txt-block {
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+    }
+}
+
+@media (max-width: 992px) {
+    .product__txt-block {
+        grid-template-rows: repeat(2, auto);
+    }
+}
+
+@media (min-width: 992px) {
+    .product__text-black {
+        justify-self: start;
+    }
+}
+
+@media (max-width: 767px) {
+    .product__text-black {
+        margin: 0px 0px 20px 0px;
+    }
+}
+
+@media (min-width: 992px) {
+    .product__text-white {
+        justify-self: end;
+    }
+}
+
+.product__list li {
+    margin: 0px 0px 24px 0px;
+    position: relative;
+}
+
+.product__list span {
+    margin: 0px 80px 0px 0px;
+}
+
+@media (max-width: 479px) {
+    .product__list span {
+        margin: 0px 20px 0px 0px;
+    }
+}
+
+.product__link {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 140%;
+    color: #333333;
+}
+
+.product__link:Before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(0px, -50%);
+    background: url("../images/home/arrow-right.png") 0 0/cover no-repeat;
+    width: 32px;
+    height: 32px;
+}
+
+.product__txt {
+    padding: 0px 0px 0px 120px;
+}
+
+.product__txt:not(:last-child) {
+    margin: 0px 0px 43px 0px;
+}
+
+@media (max-width: 479px) {
+    .product__txt {
+        padding: 0px 0px 0px 60px;
+    }
+}
+
 .main__block-title {
     margin-top: 30px;
 }
@@ -137,4 +277,97 @@ body.scroll-lock {
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+.main__achievement-services {
+    margin: 100px 0px 0px 0px;
+}
+
+.achievement-services__title {
+    margin-bottom: 40px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    margin: 0px 0px 20px 0px;
+    color: #000000;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.achievement-services__title:before {
+    content: "";
+    width: 680px;
+    height: 2px;
+    background-color: #000;
+    position: absolute;
+    top: 50%;
+    transform: translate(0px, -50%);
+    left: 0;
+    margin: 0px 0px 0px 140px;
+}
+
+@media (max-width: 767px) {
+    .achievement-services__title:before {
+        width: 400px;
+    }
+}
+
+@media (max-width: 500px) {
+    .achievement-services__title:before {
+        width: 260px;
+    }
+}
+
+@media (max-width: 375px) {
+    .achievement-services__title:before {
+        width: 140px;
+    }
+}
+
+.achievement-services__rows {
+    display: grid;
+    grid-template-rows: repeat(3, auto);
+    row-gap: 40px;
+}
+
+.item-achievement-services__body {
+    display: grid;
+}
+
+@media (max-width: 1440px) {
+    .item-achievement-services__body {
+        text-align: center;
+    }
+}
+
+@media (min-width: 1440px) {
+    .item-achievement-services__body {
+        grid-auto-flow: column;
+        align-items: center;
+        grid-template-columns: 1fr, auto;
+    }
+}
+
+@media (min-width: 1440px) {
+    .item-achievement-services__image {
+        margin: 0px 120px 0px 0px;
+    }
+}
+
+@media (max-width: 1440px) {
+    .item-achievement-services__image {
+        margin: 0px 0px 28px 0px;
+    }
+}
+
+.item-achievement-services__image img {
+    max-width: 100%;
+}
+
+.item-achievement-services__title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 140%;
+    margin: 0px 0px 20px 0px;
+    color: #333333;
 }
