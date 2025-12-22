@@ -83,18 +83,19 @@ body.scroll-lock {
         margin-top: calc(40px + 60 * ((100vw - 320px) / 1030));
     }
 }
+
 #text-white {
     font-weight: 400;
     font-size: 18px;
     line-height: 160%;
-    
+
 }
 
 .container {
     max-width: 1350px;
     padding: 0px 15px;
     margin: 0px auto;
-    
+
 }
 
 .block-title__body {
@@ -145,6 +146,7 @@ body.scroll-lock {
     height: 100%;
     object-fit: cover;
 }
+
 .main__achievement-about {
     margin-top: 100px;
 }
@@ -317,14 +319,14 @@ body.scroll-lock {
 }
 
 
-   .half-line {
-  flex: 1; 
-  height: 2px;
-  background-color: #000;
-  max-width: 50%; 
-  margin-top: 10px;
-  margin-left: 19px;
- 
+.half-line {
+    flex: 1;
+    height: 2px;
+    background-color: #000;
+    max-width: 50%;
+    margin-top: 10px;
+    margin-left: 19px;
+
 }
 
 
@@ -336,12 +338,13 @@ body.scroll-lock {
     font-weight: 500;
     font-size: 36px;
     padding-bottom: 40px;
-    
-    
-}
-.content_Text_Choose_main{
 
- display: flex;
+
+}
+
+.content_Text_Choose_main {
+
+    display: flex;
     max-width: 600px;
     line-height: 1.5;
     font-size: 18px;
@@ -349,15 +352,16 @@ body.scroll-lock {
     padding-left: 80px;
     padding-bottom: 20px;
     color: #9C9C9C;
-    
+
 }
+
 .content_Text_Choose {
     display: flex;
     max-width: 600px;
     line-height: 1.5;
     font-size: 18px;
     font-weight: 400;
-    
+
     padding-bottom: 20px;
     color: #9C9C9C;
 
@@ -367,10 +371,10 @@ body.scroll-lock {
     display: flex;
     justify-content: center;
     gap: 15px;
-   
- 
-  
-      
+
+
+
+
 }
 
 .ellipse_element {
@@ -396,10 +400,41 @@ body.scroll-lock {
 
 .Text_element_Choose span {
     display: flex;
-  flex-direction: column;  
-  justify-content: center;
-  align-items: center;
-  text-align: center; 
-  width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
 
+}
+
+.content_Block_choose {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+@media (max-width: 800px) {
+    .content_Block_choose {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content_element {
+        width: 100%;
+        max-width: 400px;
+        padding-left: 0;
+    }
+
+    .content_Text_Choose_main {
+        transform: translateX(-40px) !important;
+    }
+
+    .container_choose {
+        transform: translateX(-40px) !important;
+    }
+
+    .Why_Text {
+        transform: translateX(-40px) !important;
+    }
 }
