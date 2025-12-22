@@ -64,8 +64,16 @@ a {
 .header_button {
     width: 142px;
     height: 49px;
-    background-color: rgb(23, 23, 144);
+    background-color: #2C3878;
     color: white;
+    transition: background-color 0.8s ease 0s;
+}
+
+.header_button:hover {
+    background-color: rgb(148, 175, 238);
+    transition: background-color 0.8s ease 0s;
+    border: 1px solid rgb(69, 76, 94);
+    color: #000;
 }
 
 @media (max-width: 900px) {
