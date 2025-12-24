@@ -6,6 +6,8 @@
 <br />
 <br />
 Макет: https://www.figma.com/design/txd9ZCN80qADFUreB1cQuK/Dananz?node-id=1-2&p=f
+<br />
+Pages: https://tvivlad2.github.io/team_2/room.html
 
 <hr>
 
