@@ -21,15 +21,13 @@ dananz-website/
 ├── 📄 teams.html              # Команда
 ├── 📄 room.html               # Пример дизайна комнаты
 ├── 📁 css/                    # Стили проекта
-│   └── 🎨 style.css           # Главный файл стилей
-├── 📁 images/                 # Изображения
-│   ├── 📁 /about              # Фото из страницы about
-│   ├── 📁 /contact            # Фото из страницы contact
-│   ├── 📁 /home               # Фото из страницы home
-│   ├── 📁 /icons              # Иконки
-│   ├── 📁 /portfolio          # Фото из страницы portfolio
-│   ├── 📁 /room               # Фото из страницы room
-│   ├── 📁 /services           # Фото из страницы services
-│   └── 📁 /teams              # Фото из страницы teams
-└── 📁 assets/                 # Дополнительные ресурсы
-    └── 📁 fonts/              # Локальные шрифты
+│   └── 🎨 ...css
+└── 📁 images/                 # Изображения
+    ├── 📁 /about              # Фото из страницы about
+    ├── 📁 /contact            # Фото из страницы contact
+    ├── 📁 /home               # Фото из страницы home
+    ├── 📁 /icons              # Иконки
+    ├── 📁 /portfolio          # Фото из страницы portfolio
+    ├── 📁 /room               # Фото из страницы room
+    ├── 📁 /services           # Фото из страницы services
+    └── 📁 /teams              # Фото из страницы teams
